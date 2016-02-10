@@ -8,13 +8,13 @@
   "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
   "files": [ "build/" ],
   "bin": {
-    "start": "build/index.js"
+    "start-runner": "build/index.js"
   },
   "main": "build/index.js",
   "dependencies": {
     "babel-register": "6.x.x",
     "babel-polyfill": "6.x.x",
-    "start-simple-cli": "0.x.x"
+    "start-simple-cli": "1.x.x"
   },
   "devDependencies": {
     "start-babel-cli": "0.1.x",

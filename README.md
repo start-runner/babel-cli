@@ -8,8 +8,6 @@
 
 Babel CLI for [Start](https://github.com/start-runner/start) – "wrapper" around [start-simple-cli](https://github.com/start-runner/simple-cli) with [babel-register](https://babeljs.io/docs/usage/require/) and [babel-polyfill](https://babeljs.io/docs/usage/polyfill/) required.
 
-**Work in progress**, will land with `start@4`. See an [issue](https://github.com/start-runner/start/issues/3) for details.
-
 ## Install
 
 ```

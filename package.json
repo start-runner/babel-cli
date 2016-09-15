@@ -17,7 +17,7 @@
     "start-simple-cli": "^2.0.0"
   },
   "devDependencies": {
-    "start-babel-cli": "^1.0.0",
+    "start-babel-cli": "^2.0.1",
     "start-start-preset": "^2.0.0",
     "babel-preset-es2015": "^6.13.2",
     "babel-eslint": "^6.1.2",

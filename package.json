@@ -14,7 +14,7 @@
   "dependencies": {
     "babel-register": "^6.11.6",
     "babel-polyfill": "^6.13.0",
-    "start-simple-cli": "^2.0.0"
+    "start-simple-cli": "^3.0.0"
   },
   "devDependencies": {
     "start-babel-cli": "^2.0.1",

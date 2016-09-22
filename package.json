@@ -2,11 +2,16 @@
   "name": "start-babel-cli",
   "version": "2.0.1",
   "description": "Babel CLI for Start",
-  "keywords": [ "start", "start-cli" ],
+  "keywords": [
+    "start",
+    "start-cli"
+  ],
   "homepage": "https://github.com/start-runner/babel-cli",
   "repository": "start-runner/babel-cli",
   "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
-  "files": [ "build/" ],
+  "files": [
+    "build/"
+  ],
   "bin": {
     "start-runner": "build/index.js"
   },
@@ -14,22 +19,24 @@
   "dependencies": {
     "babel-register": "^6.11.6",
     "babel-polyfill": "^6.13.0",
-    "start-simple-cli": "^2.0.0"
+    "start-simple-cli": "^3.0.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "^6.13.2",
+    "eslint-config-rebem": "^1.1.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "execa": "^0.4.0",
+    "husky": "^0.11.6",
+    "sinon": "^1.17.5",
     "start-babel-cli": "^2.0.1",
     "start-start-preset": "^2.0.0",
-    "babel-preset-es2015": "^6.13.2",
-    "babel-eslint": "^6.1.2",
-    "eslint-plugin-babel": "^3.3.0",
-    "eslint-config-rebem": "^1.1.0",
-    "tape": "^4.6.0",
-    "sinon": "^1.17.5",
-    "husky": "^0.11.6"
+    "tape": "^4.6.0"
   },
   "scripts": {
     "start": "node node_modules/start-babel-cli/build/ start-start-preset",
-    "prepush": "npm start prepush",
+    "prepush": "npm start test",
     "prepublish": "npm start build"
   },
   "engines": {

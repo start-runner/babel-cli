@@ -1,13 +1,9 @@
 import test from 'tape';
-
-import CLI from '../../lib/';
+import execa from 'execa';
 
 test('basic', t => {
-    t.notEqual(
-        typeof CLI,
-        'undefined',
-        'exist'
-    );
-
-    t.end();
+    execa('babel-node', [ './lib/index.js' ]).catch((error) => {
+        t.pass('ok');
+        t.end();
+    });
 });

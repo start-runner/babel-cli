@@ -34,7 +34,7 @@
     "tape": "^4.6.0"
   },
   "scripts": {
-    "start": "node node_modules/start-babel-cli/build/ start-start-preset",
+    "start": "node node_modules/start-babel-cli/build/ -p start-start-preset",
     "prepush": "npm start test",
     "prepublish": "npm start build"
   },

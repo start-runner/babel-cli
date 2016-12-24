@@ -9,8 +9,10 @@
 
 ## Install
 
-```
-npm i -D start-babel-cli
+```sh
+npm install --save-dev start-babel-cli
+# or
+yarn add --dev start-babel-cl
 ```
 
 ## Usage

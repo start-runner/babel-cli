@@ -32,7 +32,7 @@
     "tape": "^4.6.0"
   },
   "scripts": {
-    "start": "start-runner -p start-start-preset",
+    "start": "node node_modules/start-babel-cli/build/ -p start-start-preset",
     "prepush": "yarn start test",
     "prepublish": "yarn start build"
   },

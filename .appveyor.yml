@@ -14,7 +14,7 @@ cache:
 branches:
   only:
     - master
-    - /^greenkeeper-.*$/
+    - /^greenkeeper\/.*$/
 skip_tags: true
 matrix:
   fast_finish: true
@@ -23,4 +23,4 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - yarn
 test_script:
-  - yarn start test
+  - yarn start ci

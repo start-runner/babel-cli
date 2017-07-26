@@ -18,7 +18,7 @@
   "main": "build/index.js",
   "dependencies": {
     "babel-register": "^6.11.6",
-    "start-simple-cli": "^4.0.0"
+    "start-cli-core": "^0.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
@@ -27,7 +27,7 @@
     "execa": "^0.5.0",
     "husky": "^0.12.0",
     "sinon": "^1.17.5",
-    "start-babel-cli": "^4.0.0",
+    "start-babel-cli": "^4.0.2",
     "start-start-preset": "^3.0.0",
     "tape": "^4.6.0"
   },
